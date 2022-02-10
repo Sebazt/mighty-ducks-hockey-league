@@ -1,0 +1,110 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🦆 MDHL | feedback send</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Ephesis&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style_personal.css" />
+  </head>
+  <body class="body__data">
+    <header class="header">
+      <h1>Mighty Ducks Hockey League</h1>
+      <img
+        src="./assets/logo.png"
+        alt="Logo of Mighty Ducks Hockey League"
+        class="header__logo"
+      />
+      <nav class="header__nav">
+        <a href="./index.html" class="nav__a">🐱‍💻 <b>Home </b></a>
+        <a href="./about.html" class="nav__a">⛄ <b>About us </b></a>
+        <a href="./rules.html" class="nav__a">🎯 <b>Rules</b></a>
+        <a href="#" class="nav__a">📆 <b>Game Information</b></a>
+        <a href="./registration.html" class="nav__a">📑 Registration</a>
+        <a href="./contact.html" class="nav__a">🧒🏻 <b>Contact</b></a>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class=>
+        <p align="center">&nbsp;</p>
+        <h2 class="div__data">The following information has been sent as your feedback:<font></h2>
+      </div>
+    <section class="main__section__data">
+    <table border="1" align="center" width="226" class="tabla__data">
+      <tr class="tabla__tr">
+        <th align="center" class="th_data">Form Field</th>
+        <th align="center">Field Value</th>
+      </tr>
+
+      <script language="javascript">
+        var args = location.search.substr(1).split("&");
+        for (var i = 0; i < args.length; ++i) {
+          var parts = args[i].split("=");
+          if (parts != null) {
+            var field = parts[0];
+            var value = parts[1];
+            if (value == null) {
+              value = "null";
+            } else {
+              value = '"' + unescape(value.replace(/\+/g, " ")) + '"';
+            }
+
+            document.writeln('<tr><td align="center">' + field + "</td>");
+            document.writeln('<td align="center">' + value + "</td></tr>");
+          }
+        }
+      </script>
+
+      <noscript>
+        <tr class="tabla__tr">
+          <td>
+            <p  >You need to turn on Javascript in your browser.</p>
+
+            <p>In Microsoft Internet Explorer 4 or greater:</p>
+            <ul >
+              <li >
+                From the "Tools" menu (in IE 4, it's the "View" menu), select
+                "Internet Options".
+              </li>
+              <li>Click on the "Security" tab.</li>
+              <li>
+                Click on the "Custom Level" button. (In IE 4, select "Custom"
+                and then click on "Settings...".)
+              </li>
+              <li>Under "Active scripting" make sure "Enable" is selected.</li>
+            </ul>
+
+            <p >In Netscape version 4 or greater:</p>
+            <ul>
+              <li>From the <b>Edit</b> menu, select <b>Preferences</b>.</li>
+              <li>
+                In the <b>Category</b> list on the left, click on the word
+                "Advanced".
+              </li>
+              <li>
+                In the panel on the right, make sure "Enable JavaScript" is
+                checked.
+              </li>
+              <li>Click the <b>OK</b> button.</li>
+            </ul>
+          </td>
+        </tr>
+      </noscript>
+    </table>
+    </main>
+      </section>
+    <footer class="footer">
+      <p class="footer_p-pie"><small>Sin derechos de autor.</small></p>
+      <p class="footer_p-pie">
+        <small>Hecho por Juan Sebastian Londoño cossio 🧒🏻</small>
+      </p>
+      <p class="footer_p-pie"><small>Bootcamp MindHub. 2022.</small></p>
+    </footer>
+  </body>
+</html>

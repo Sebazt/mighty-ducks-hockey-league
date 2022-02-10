@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🦆 MDHL | registration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Ephesis&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style_personal.css" />
+  </head>
+  <body class="registration__body">
+    <header class="header">
+      <h1>Mighty Ducks Hockey League</h1>
+      <img
+        src="./assets/logo.png"
+        alt="Logo of Mighty Ducks Hockey League"
+        class="header__logo"
+      />
+      <nav class="header__nav">
+        <a href="./index.html" class="nav__a">🐱‍💻 <b>Home </b></a>
+        <a href="./about.html" class="nav__a">⛄ <b>About us </b></a>
+        <a href="./rules.html" class="nav__a">🎯 <b>Rules</b></a>
+        <a href="./game_info.html" class="nav__a">📆 <b>Game Information</b></a>
+        <a href="#" class="nav__a">📑 Registration</a>
+        <a href="./contact.html" class="nav__a">🧒🏻 <b>Contact</b></a>
+      </nav>
+    </header>
+
+    <main class="registration__main">
+      <div class="main__div">
+        <h2 class="div__h2">Registration</h2>
+      </div>
+      <section class="registration__section">
+        <form action="./show_data.html" class="form" method="get">
+            <fieldset id="fieldset1" class="registration__fondo">
+              <label for="FirstName" class="label">Players first name:</label>
+              <input type="text" id="FirstName" name="First name" required="" class="input">
+              <label for="LastName" class="label">Last Name:</label>
+              <input type="text" id="LastName" name="Last name" required="" class="input">            
+              <label for="StreetAddress" class="label">Street address:</label>
+              <input type="text" id="StreetAddress" name="Street address" required="" class="input">            
+              <label for="City" class="label">City:</label>
+              <input type="text" id="City" name="City" required="" class="input">
+              <label for="ZipCode" class="label">Zip Code:</label>
+              <input type="text" id="ZipCode" name="Zip Code" class="input">           
+              <label for="Bdate" class="label Bdate">Birth Date:</label>
+              <input type="date" id="Bdate" name="Birth Date" required="" class="input">              
+              <span class="form__span">Gender:</span>
+              <label for="Female" class="label">Female</label>
+              <input type="radio" id="Female" name="Gender" class="input">
+              <label for="Male" class="label">Male</label>
+              <input type="radio" id="Male" name="Gender" class="input">
+              <span class="form__span2">Grade:</span>
+              <label for="PreSchool" class="label">Pre School</label>
+              <input type="radio" id="PreSchool" name="Grade" class="input">
+              <label for="1str" class="label grade__botoms">1str </label>
+              <input type="radio" id="1str" name="Grade" class="input">
+              <label for="2st" class="label grade__botoms">2st </label>
+              <input type="radio" id="2st" name="Grade" class="input">
+              <label for="3rd" class="label grade__botoms">3rd </label>
+              <input type="radio" id="3rd" name="Grade" class="input">
+              <label for="4th" class="label grade__botoms">4th </label>
+              <input type="radio" id="4th" name="Grade" class="input">
+              <label for="5th" class="label grade__botoms">5th </label>
+              <input type="radio" id="5th" name="Grade"  class="input">
+              <h3 class="form__h3">Which elementary School do you live near?</h3>
+              <fieldset id="fieldset2" class="registration__fondo">
+                <legend class="legend">Closest School:</legend>
+                <div class="registration__div">
+                  <div class="div__final">
+                    <label for="AJKatzenmaier" class="label"><input type="checkbox" id="AJKatzenmaier" name="AJ Katzenmaier" class="input">AJ Katzenmaier</label>                    
+                    <label for="Greenbay" class="label"><input type="checkbox" id="Greenbay" name="AJ Katzenmaier" class="input">Greenbay</label>     
+                    <label for="HowardAYeager" class="label"><input type="checkbox" id="HowardAYeager" name="Greenbay" class="input">Howard A Yeager</label>                    
+                  </div>
+                  <div class="div__final">
+                    <label for="MarjoriePHart" class="label"><input type="checkbox" id="MarjoriePHart" name="Marjorie P Hart" class="input">Marjorie P Hart</label>                    
+                    <label for="NorthElementary" class="label"><input type="checkbox" id="NorthElementary" name="North Elementary" class="input">North Elementary</label>                    
+                    <label for="SouthElementary" class="label"><input type="checkbox" id="SouthElementary" name="South Elementary" class="input">South Elementary</label>                    
+                  </div>
+                </div> 
+              </fieldset>
+              <h3 class="form__h3">¿What position do you normally play?(check all that aplly)</h3>
+              <fieldset id="fieldset3">
+                <div class="registration__div">
+                  <div class="div__final">
+                    <label for="Forward" class="label"><input type="checkbox" id="Forward" name="Forward" class="input">Forward</label>                    
+                    <label for="Defense" class="label"><input type="checkbox" id="Defense" name="Defense" class="input">Defense</label>                    
+                  </div>
+                </div>
+                <div class="registration__div">
+                  <div class="div__final">
+                    <label for="Midfield" class="label"><input type="checkbox" id="Midfield" name="Midfield" class="input">Midfield</label>                    
+                    <label for="Goalkeeper" class="label"><input type="checkbox" id="Goalkeeper" name="Goalkeeper" class="input">Goalkeeper</label>                    
+                  </div>
+                </div>
+              </fieldset>
+              <h3 class="form__h3">Uniform Size:</h3>
+              <fieldset id="fieldset4">
+                  <div class="registration__div__3"> 
+                   <div class="div__final">                      
+                      <label for="YouthSmall" class="label"><input type="radio" id="YouthSmall" name="Uniform Size:" class="input">Youth Small</label>                      
+                      <label for="YouthMedium" class="label"><input type="radio" id="YouthMedium" name="Uniform Size:" class="input">Youth Medium</label>                      
+                      <label for="YouthLarge" class="label"><input type="radio" id="YouthLarge" name="Uniform Size:" class="input">Youth Large</label>                      
+                      <label for="Small" class="label"><input type="radio" id="Small" name="Uniform Size:" class="input">Small</label>                      
+                    </div>  
+                  </div>
+                  <div class="registration__div__3">
+                    <div class="div__final">                 
+                      <label for="Medium" class="label"><input type="radio" id="Medium" name="Uniform Size:" class="input">Medium</label>                     
+                      <label for="Large" class="label"><input type="radio" id="Large" name="Uniform Size:" class="input">Large</label>                      
+                      <label for="ExtraLarge" class="label"><input type="radio" id="ExtraLarge" name="Uniform Size:" class="input">Extra-Large</label>                      
+                    </div>
+                  </div>                 
+              </fieldset> 
+            </fieldset>                   
+            <input type="submit" value="Send" class="submit">
+        </form>
+      </section>
+      <section class="main__section">
+          <h3 class="registration__h3">Permission to Play</h3>
+          <p class="registration__p">
+              I, the parent or guardian of the minor registrant, agree that the registrant and i will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the posibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, agains any chaim by or on behalf of the registrant as a result of the registrant´s participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation.            
+          </p>
+          <p class="registration__p">
+              By signing below, I herebyagree andauthorizethe above. In addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.
+          </p>
+          <label for="ParentGuardianSignature" class="p__label registration__p" >Parent/GuardianSignature:<input type="text" id="ParentGuardianSignature" name="Parent/GuardianSignature" required="" class="p__input"></label>
+          <label for="Date" class="p__label registration__p">Date:<input type="text" id="Date" name="Date" required="" class="p__input"></label>        
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer_p-pie"><small>Sin derechos de autor.</small></p>
+      <p class="footer_p-pie">
+        <small>Hecho por Juan Sebastian Londoño cossio 🧒🏻</small>
+      </p>
+      <p class="footer_p-pie"><small>Bootcamp MindHub. 2022.</small></p>
+    </footer>
+  </body>
+</html>
